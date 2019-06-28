@@ -18,7 +18,7 @@ Vue.use(NSVueLifecycleHooks)
 
 ### Usage
 
-In any component that has Page element as child, you can use [NativeScript page events](https://docs.nativescript.org/ui/ns-ui-widgets/page#page-events) with [Vue lifecycle hooks](https://vuejs.org/v2/guide/instance.html#Instance-Lifecycle-Hooks) style.
+In any component that has Page as root element, you can use [NativeScript page events](https://docs.nativescript.org/ui/ns-ui-widgets/page#page-events) with [Vue lifecycle hooks](https://vuejs.org/v2/guide/instance.html#Instance-Lifecycle-Hooks) style.
 
 So instead of this:
 ````
