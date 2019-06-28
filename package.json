@@ -1,0 +1,28 @@
+{
+  "name": "nativescript-vue-lifecycle-hooks",
+  "version": "1.0.0",
+  "description": "NativeScript-Vue lifecycle hooks extension.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vuejs",
+    "nativescript",
+    "nativescript-vue",
+    "ios",
+    "android"
+  ],
+  "author": "Mohamed Eddami",
+  "license": "MIT",
+  "nativescript": {
+    "platforms": {
+      "android": "4.2.0",
+      "ios": "4.2.0"
+    },
+    "plugin": {
+      "vue": "true",
+      "category": "Developer"
+    }
+  }
+}
